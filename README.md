@@ -29,8 +29,8 @@ Light Field (LF) view synthesis aims to synthesize a dense set of LF views from 
 
 
 <p align="center">
-   <img src="Rea.png" width="800"/>
+   <img src="Synthetic results.JPG" width="800"/>
 " width="800"/>
   <br>
-  <b>Fig. 1.</b> <i>SwinScale-LFVS modules: (a) Swin-Transformer Stream, (b) Multi-Scale Convolution Stream, and (c) LF View Synthesis..</i>
+  <b>Fig. 1.</b> <i>Qualitative  Results on real-world datasets.</i>
 </p>

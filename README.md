@@ -26,3 +26,9 @@ Light Field (LF) view synthesis aims to synthesize a dense set of LF views from 
 | Occlusions  | 36.43 / 0.971  | 39.04 / 0.981  | 39.45 / <b>0.984</b>         | 39.18 / 0.979  | 39.40 / 0.982    | <b>39.85</b>  / 0.983    |
 | Reflective  | 36.25 / 0.945  | 39.04 / 0.962  | 39.19 /<b> 0.963</b>         | 38.91 / 0.958  | 39.02 / 0.960    | <b>39.45</b>/ 0.962     |
 | <b>Average</b> | 37.82 / 0.966  | 40.33 / 0.976  | 40.61 /<b> 0.978</b>         | 40.41 / 0.972  | 40.67 / 0.976    | <b>41.06</b> / <u>0.977</u>  
+<p align="center">
+  <img src="![Synthetic results](https://github.com/user-attachments/assets/5671b77d-687c-40e3-b748-81b5166e2d52)
+" width="800"/>
+  <br>
+  <b>Fig. 1.</b> <i>SwinScale-LFVS modules: (a) Swin-Transformer Stream, (b) Multi-Scale Convolution Stream, and (c) LF View Synthesis..</i>
+</p>

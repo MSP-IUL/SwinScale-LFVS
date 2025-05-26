@@ -32,12 +32,10 @@ Light Field (LF) view synthesis aims to synthesize a dense set of LF views from 
    <img src="Synthetic results.JPG" width="800"/>
 " width="800"/>
   <br>
-  <b>Fig. 1.</b> <i>Qualitative  Results on synthetic datasets.</i>
 </p>
 
 <p align="center">
-   <img src="Real-world datasets.png" width="800"/>
+   <img src="Real-world datasets.JPG" width="800"/>
 " width="800"/>
   <br>
-  <b>Fig. 1.</b> <i>Qualitative  Results on real-world datasets.</i>
 </p>

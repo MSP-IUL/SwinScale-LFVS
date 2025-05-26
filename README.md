@@ -43,19 +43,19 @@ Light Field (LF) view synthesis aims to synthesize a dense set of LF views from 
   <tr>
     <td>
       <video width="320" height="240" controls autoplay muted loop>
-        <source src="PCS.mp4" type="mp4">
+        <source src="PCS.avi" type="avi">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="240" controls autoplay muted loop>
-        <source src="Distg.mp4" type="mp4">
+        <source src="Distg.avi" type="avi">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="240" controls autoplay muted loop>
-        <source src="SwinScale.mp4" type="mp4">
+        <source src="SwinScale.avi" type="avi">
         Your browser does not support the video tag.
       </video>
     </td>

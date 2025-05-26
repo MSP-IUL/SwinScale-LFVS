@@ -5,7 +5,7 @@
 Light Field (LF) view synthesis aims to synthesize a dense set of LF views from a sparse set of input views. Although many recent learning-based methods have shown promising results in this task, they often rely on deep residual networks or on multiple LF representations to extract dense features, without fully exploiting the geometric structure of the LFs. In this paper, we introduce SwinScale-LFVS, a novel framework that combines the strengths of the Swin Transformer and the Multi-Scale Convolutional Network in parallel streams. The first stream uses a Swin Transformer to model local and global features using a geometry-aware Angular Mutual Self Attention (AMSA) network, and the second stream uses multi-scale 3D convolutions to extract dense features and to ensure spatial-angular consistency in synthesized LF views. The outputs from these streams are integrated and processed by an LF View Synthesis (LFVS) network to synthesize high-quality dense LF views. Extensive experiments show that SwinScale-LFVS outperforms existing methods on both real-world and synthetic datasets. 
 
 <p align="center">
-  <img src="SwinScale_LFVS.png" width="800"/>
+  <img src="Synthetic results.JPG" width="800"/>
   <br>
   <b>Fig. 1.</b> <i>SwinScale-LFVS modules: (a) Swin-Transformer Stream, (b) Multi-Scale Convolution Stream, and (c) LF View Synthesis..</i>
 </p>
@@ -26,8 +26,10 @@ Light Field (LF) view synthesis aims to synthesize a dense set of LF views from 
 | Occlusions  | 36.43 / 0.971  | 39.04 / 0.981  | 39.45 / <b>0.984</b>         | 39.18 / 0.979  | 39.40 / 0.982    | <b>39.85</b>  / 0.983    |
 | Reflective  | 36.25 / 0.945  | 39.04 / 0.962  | 39.19 /<b> 0.963</b>         | 38.91 / 0.958  | 39.02 / 0.960    | <b>39.45</b>/ 0.962     |
 | <b>Average</b> | 37.82 / 0.966  | 40.33 / 0.976  | 40.61 /<b> 0.978</b>         | 40.41 / 0.972  | 40.67 / 0.976    | <b>41.06</b> / <u>0.977</u>  
+
+
 <p align="center">
-  <img src="![Synthetic results](https://github.com/user-attachments/assets/5671b77d-687c-40e3-b748-81b5166e2d52)
+   <img src="Rea.png" width="800"/>
 " width="800"/>
   <br>
   <b>Fig. 1.</b> <i>SwinScale-LFVS modules: (a) Swin-Transformer Stream, (b) Multi-Scale Convolution Stream, and (c) LF View Synthesis..</i>

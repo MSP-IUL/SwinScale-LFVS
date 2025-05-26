@@ -9,3 +9,19 @@ Light Field (LF) view synthesis aims to synthesize a dense set of LF views from 
   <b>Fig. 1.</b> <i>SwinScale-LFVS modules: (a) Swin-Transformer Stream, (b) Multi-Scale Convolution Stream, and (c) LF View Synthesis..</i>
 </p>
 
+### 📊 Table I. Quantitative Comparison on Synthetic Datasets (PSNR / SSIM)
+
+| Dataset   | LFASR-GEO [9] | GA-MRVR [10]     | Deformable-LFVS [11] | LF-EASR [12]     | Distg-ASR [13]     | **SwinScale-LFVS** |
+|-----------|----------------|------------------|-----------------------|------------------|--------------------|--------------------|
+| HCI-new   | 32.29 / 0.911  | _34.28 / 0.936_  | _34.52 / 0.936_       | _34.27 / 0.949_  | 34.16 / 0.969      | **35.75 / 0.972**  |
+| HCI-old   | 35.73 / 0.937  | _40.82 / 0.953_  | _41.25 / 0.958_       | _41.47 / 0.970_  | **42.13 / 0.974**  | _41.97 / 0.975_    |
+| **Average** | 34.01 / 0.924 | _37.55 / 0.945_  | _37.89 / 0.955_       | _37.87 / 0.960_  | _38.14 / 0.972_    | **38.86 / 0.974**  |
+
+### 📊 Table II. Quantitative Comparison on Real-World Datasets (PSNR / SSIM)
+
+| Dataset     | LFASR-GEO [9] | GA-MRVR [10]     | Deformable-LFVS [11] | LF-EASR [12]     | Distg-ASR [13]     | **SwinScale-LFVS** |
+|-------------|----------------|------------------|-----------------------|------------------|--------------------|--------------------|
+| UCSD        | 40.78 / 0.982  | _42.91 / 0.987_  | _43.19 / 0.987_       | 43.15 / 0.980    | _43.60 / 0.986_    | **43.87 / 0.987**  |
+| Occlusions  | 36.43 / 0.971  | _39.04 / 0.981_  | _39.45 / 0.984_       | _39.18 / 0.979_  | _39.40 / 0.982_    | **39.85 / 0.983**  |
+| Reflective  | 36.25 / 0.945  | _39.04 / 0.962_  | _39.19 / 0.963_       | _38.91 / 0.958_  | _39.02 / 0.960_    | **39.45 / 0.962**  |
+| **Average** | 37.82 / 0.966  | _40.33 / 0.976_  | _40.61 / 0.978_       | _40.41 / 0.972_  | _40.67 / 0.976_    | **41.06 / 0.977**  |
